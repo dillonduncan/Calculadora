@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454585"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="395dp"
+        android:layout_height="445dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btnNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationY="85dp" />
+
+        <Button
+            android:id="@+id/btnNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="100dp"
+            android:translationY="85dp" />
+
+        <Button
+            android:id="@+id/btnNum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="200dp"
+            android:translationY="85dp" />
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnope_estilo"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="300dp"
+            android:translationY="85dp" />
+
+        <Button
+            android:id="@+id/btnNum6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="200dp"
+            android:translationY="175dp" />
+
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnope_estilo"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="300dp"
+            android:translationY="175dp" />
+
+        <Button
+            android:id="@+id/btnMulti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnope_estilo"
+            android:text="*"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="300dp"
+            android:translationY="265dp" />
+
+        <Button
+            android:id="@+id/btnNum9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="200dp"
+            android:translationY="265dp" />
+
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnope_estilo"
+            android:text="="
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="200dp"
+            android:translationY="355dp" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnope_estilo"
+            android:text="/"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="300dp"
+            android:translationY="355dp" />
+
+        <Button
+            android:id="@+id/btnNum4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationY="175dp" />
+
+        <Button
+            android:id="@+id/btnNum5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="100dp"
+            android:translationY="175dp" />
+
+        <Button
+            android:id="@+id/btnNum8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="100dp"
+            android:translationY="265dp" />
+
+        <Button
+            android:id="@+id/btnNum7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationY="265dp" />
+
+        <Button
+            android:id="@+id/btnNum0"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnnums_estilo"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationY="355dp" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@drawable/btnope_estilo"
+            android:paddingBottom="10dp"
+            android:text="Borrar"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:translationY="5dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:hint="0"
+        android:textAlignment="textEnd"
+        android:textColor="#76FF03"
+        android:textColorHint="#76FF03"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
